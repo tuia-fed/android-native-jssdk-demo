@@ -416,7 +416,3 @@ Manifest.permission.READ_EXTERNAL_STORAGE
 
 
 
-## 补充说明
-
-该文档会存在不全的问题，会在后期补全，同步。
-
