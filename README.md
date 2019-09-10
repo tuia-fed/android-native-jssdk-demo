@@ -1,7 +1,5 @@
-# android-native-jssdk-demo
+# android-jssdk-demo
 android-jssdk-demo
-
-# 推啊原生互动示例工程 - 安卓
 
 ## 使用说明
 
