@@ -102,10 +102,10 @@ AdCallBack的默认实现为DefaultAdCallBack，已在sdk中实现可以直接�
 
 | 参数名 | 必填 | 类型   | 默认值 |          描述               |
 | ------ | :--: | ------ | --------- | ------------------ |
-| appKey |  是  | string | 000000 | 系统分配的加密字段 |
-| slotId |  是  | string（可空） | 000000 | 广告位id(需根据该id后台配置活动) |
+| appKey |  是  | string | 000000 | 系统分配 (在推啊后台‘我的媒体’获取appkey) |
+| slotId |  是  | string（可空） | 000000 | 系统分配的广告位Id (在推啊后台‘我的广告位’获取slotId) |
 | userId |  否  | string |  deviceId | 媒体端对接虚拟奖品是需要设置 |
-| deviceId |  否  | string |  UUID.randomUUID | 用户唯一身份标识 |
+| deviceId |  否  | string |  UUID.randomUUID | 此信息将有利于我们对于用户的精准识别，从而推荐更优质合适的广告，从而有助于提升媒体收益 |
 | activity |  是  | Activity |   | 展示互动广告的activity |
 | viewGroup |  否 | FrameLayout | null | 展示互动广告的viewGroup viewGroup为空的情况下即为插屏广告否则即为嵌入式广告 |
 | AdCallBack | 否 | AdCallBack | null|弹窗行为回调 包括show 和dismiss |
